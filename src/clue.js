@@ -188,7 +188,7 @@ function selectRandom(arr) {
   return arr[randomIndex];
 }
 
-// console.log(selectRandom(suspectsArray));
+console.log(selectRandom(suspectsArray));
 
 function pickMystery() {
   return {
@@ -198,9 +198,9 @@ function pickMystery() {
   }
 }
 
-let pickMysteryEnvelope = pickMystery();
+let pickMysteryEnvelope = pickMystery(); // I assigned the function to a variable to make things easier.
 
-// console.log(pickMystery());
+console.log(pickMystery());
 
 // ITERATION 3
 
